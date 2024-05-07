@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule api/recipe/([0-9]*)$ api_recipe.php?id=$1 [NC,L]
+RewriteRule api/recipes/([0-9]*)$ api_recipes.php?page=$1 [NC,L]
